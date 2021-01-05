@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="home-style.css">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section>
+    <nav>
+        <a href="Home.html" class="logo">Me</a>
+        <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">About me</a></li>
+        <li><a href="#">Contact me</a></li>
+        </ul>
+        <div class="toggle"></div>
+    </nav>
+    <div class="text-container">
+        <p>Hello,</p>
+        <p>I'm Svatopluk</p>
+        <p>I am beginner programmer <br>& student on school called Educanet.</p>
+        <button class="btn">Maybe click ?</button>
+    </div>
+</section>
+<div class="about-container">
+    <div class="about-text">
+        <p>About Me</p>
+        <p>Student & Beginner Programmer</p>
+        <p>Hello, My name is Svatopluk Houserek. I am student on school called Educanet. Since this year I start programming and well its quite fun and I enjoy it. So please let me have atleast 85%.</p>
+        <p>I am also an hockey player so I don't have that much time, so sometimes I forgot to do my homeworks, I am sorry in advance.</p>
+    </div>
+</div>
+<div class="down">
+<div class="text-down">
+    <p>Well its down</p>
+    <p>Still down</p>
+    <p>Sorry that I am sending it that late but I forgot I have to do this, I am verry sorry I hope you will understand it and yeah its still down.</p>
+</div>
+    <div class="box-container">
+    <div class="box-1">
+        <span>1</span>
+        <p class="heading">Web</p>
+        <p class="details">I think it looks great, but I am not designer so yeah.</p>
+        <button>Read More</button>
+    </div>
+    <div class="box-2">
+        <span>2</span>
+        <p class="heading">Web 2</p>
+        <p class="details">I think it looks great, but I am not designer so yeah.</p>
+        <button>Not now</button>
+    </div>
+    <div class="box-3">
+        <span>3</span>
+        <p class="heading">Web 3</p>
+        <p class="details">I think it looks great, but I am not designer so yeah.</p>
+        <button>Maybe</button>
+    </div>
+</div>
+</div>
+<div class="contact-me">
+    <p>I think I did a great job.</p>
+    <button>Yes</button>
+</div>
+<footer>
+    <p>I think I did a great job</p>
+    <p>But if you don't like it just told me and I will change it until you like it.</p>
+    <div class="class-1">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+    <p class="copyright">Copyright by me</p>
+</footer>
+<div class="social">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-youtube"></i></a>
+</div>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.toggle').click(function(){
+            $('.toggle').toggleClass('active')
+            $('nav').toggleClass('active')
+        })
+    });
+
+</script>
+</body>
+</html>
